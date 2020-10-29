@@ -1,0 +1,464 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: capitalize;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/* social-net  */
+
+.social-area {
+    padding: 16px 0;
+    background-color: #f5f7fa;
+}
+
+.email-info h6 {
+    color: #506a85;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+ul.social-list {
+    padding: 0;
+    margin: 0;
+}
+
+ul.social-list li {
+    display: inline-block;
+    padding: 0;
+}
+
+ul.social-list li a {
+    /* border: 1px solid #fff; */
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    /* line-height: 35px; */
+    color: #506a85;
+    /* background-color: black; */
+    border-radius: 50%;
+    transition: all 300ms linear;
+}
+
+/* navbar  */
+
+.navbar-expand-lg .navbar-collapse {
+    padding-left: 70px;
+}
+
+.navbar-nav .nav-link {
+    padding-left: 35px !important;
+    color: #506a85;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* slider  */
+
+#banner-area {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    clear: both;
+    position: relative;
+}
+
+#banner-area img {
+    width: 100%;
+    height: auto;
+}
+
+#banner-area .inner-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#banner-area .banner-text-area {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#banner-area .inner-main-text-banner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-main-text-banner h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 78px;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+
+.inner-main-text-banner p {
+    color: #fff;
+    font-size: 24px;
+    color: #a3b1bf;
+    line-height: 30px;
+    /* padding: 0 115px; */
+    margin-bottom: 35px;
+}
+
+.inner-main-text-banner .btn-start {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #00bc9c;
+    text-transform: uppercase;
+    padding: 10px 35px;
+    border-radius: 0;
+}
+
+/* about  */
+
+.about {
+    padding: 70px 0;
+}
+
+.about-head h4 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #506a85;
+    margin-bottom: 22px;
+}
+
+.about-head p {
+    font-size: 22px;
+    color: #73879c;
+    line-height: 35px;
+}
+
+.logo-option i {
+    font-size: 48px;
+    font-weight: 600;
+    color: #00bc9c;
+}
+
+.about-option h5 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #506a85;
+}
+
+.about-option p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #73879c;
+}
+
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* work  */
+
+.work {
+    padding: 70px 0;
+    background-color: #f2f5f7;
+}
+
+.work-blog {
+    padding-top: 44px;
+}
+
+.work-img img {
+    width: 100%;
+    height: auto;
+}
+
+.work-text {
+    background-color: #fff;
+    padding: 30px 56px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.work-text h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #506a85;
+}
+
+.work-text p {
+    color: #73879c;
+}
+
+/* quote  */
+
+.quote {
+    padding: 70px 0;
+}
+
+.work-title h3 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #506a85;
+}
+
+.work-title p {
+    font-size: 20px;
+    color: rgb(115, 135, 156);
+    line-height: 35px;
+}
+
+.work-title .btn-start {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #00bc9c;
+    text-transform: uppercase;
+    padding: 10px 35px;
+    border-radius: 0;
+}
+
+/* footer  */
+
+.footer {
+    padding: 50px 0;
+    background-color: #2f4052;
+}
+
+.about-fotter h5 {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+
+.about-fotter img {
+    width: 136px;
+    height: 33px;
+    /* padding-bottom: 16px; */
+}
+
+.about-fotter p {
+    color: #a3b1bf;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.about-fotter a {
+    text-decoration: none;
+    color: #73879c;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.about-fotter a:hover {
+    color: #73879c;
+}
+
+.last-work h5 {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    /* padding-bottom: 16px; */
+}
+
+.touch h5 {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    /* padding-bottom: 16px;   */
+}
+
+.touch p {
+    color: #a3b1bf;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    margin: 0;
+    /* padding-top: 16px;
+    padding-bottom: 16px; */
+}
+
+.search-group input {
+    background: #333333;
+    color: #fff;
+    border: 0px solid;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.search-group input[type="submit"] {
+    background: #3bafbe;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.search-group input[type="submit"]:hover {
+    background: #ee802f;
+}
+
+.update h5 {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.update p {
+    color: #a3b1bf;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    /* margin: 0; */
+}
+
+input.form-controle {
+    width: 163px;
+}
+
+/* responsive design  */
+
+@media (min-width: 922px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* navbar  */
+    .fa-navicon:before, .fa-reorder:before, .fa-bars {
+        color: #3bafbe;
+        font-size: 33px;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        /* padding: 10px 0; */
+        background-color: whitesmoke;
+    }
+    /* navbar  */
+    .inner-main-text-banner h1 {
+        font-size: 52px;
+    }
+    .inner-main-text-banner p {
+        font-size: 20px;
+        margin-bottom: 22px;
+    }
+    .inner-main-text-banner .btn-start {
+        padding: 10px 27px;
+    }
+    .about-head h4 {
+        font-size: 30px;
+        margin-bottom: 13px;
+    }
+
+    .about-option h5 {
+        
+        text-align: center;
+    }
+    .about-head p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .work-text p {
+        font-size: 20px;
+    }
+    .work-title h3 {
+        font-size: 30px;
+    }
+    .work-title p {
+        font-size: 18px;
+    }
+    .about-fotter h5 {
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+    .about-fotter p {
+        font-size: 13px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 0;
+    }
+    .about-fotter a {
+        margin-bottom: 15px;
+    }
+    .tablet-mar {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    /* navbar  */
+    .fa-navicon:before, .fa-reorder:before, .fa-bars {
+        color: #3bafbe;
+        font-size: 33px;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        /* padding: 10px 0; */
+        background-color: whitesmoke;
+    }
+    .navbar-brand img {
+        width: 100px;
+    }
+    /* navbar  */
+    .inner-main-text-banner h1 {
+        font-size: 22px;
+        margin-bottom: 1px;
+    }
+    .inner-main-text-banner p {
+        font-size: 11px;
+        line-height: 18px;
+        margin-bottom: 8px;
+    }
+    .inner-main-text-banner .btn-start {
+        font-size: 11px;
+        padding: 6px 19px;
+    }
+    .about-head h4 {
+        font-size: 24px;
+        margin-bottom: 9px;
+    }
+    .about-head p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .about-option h5 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .about-option p{
+        font-size: 14px;
+    }
+    .work-text{
+        padding: 17px 20px;
+    }
+    .work-text h4 {
+        font-size: 19px;
+    }
+    .work-text p{
+        font-size: 14px;
+    }
+    .work-title h3 {
+        font-size: 21px;
+    }
+    .work-title p{
+        font-size: 17px; 
+        line-height: 24px;
+    }
+    
+    .work-title .btn-start{
+        font-size: 11px;
+    padding: 6px 19px;
+    }
+}
